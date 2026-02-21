@@ -1,7 +1,7 @@
 import sys
 def Device():
     try:
-        file = "/home/device.txt"
+        file = "/home/kali/device.txt"
         device = []
         with open(file) as f:
             for line in f:
